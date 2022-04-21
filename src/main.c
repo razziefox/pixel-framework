@@ -39,7 +39,7 @@ int main(int argc, char **argv) {
     if (SDL_Init(SDL_INIT_VIDEO) != 0) {
 
         //displays error message and quits
-        printf("Error with starting SDL2!! More details: %d", SDL_GetError());
+        printf("Error with starting SDL2!! More details: %s", SDL_GetError());
         return 1;
 
     }
@@ -57,7 +57,7 @@ int main(int argc, char **argv) {
     if (window == NULL) {
 
         //displays error message and quits
-        printf("Error with creating window!! More details: %d", SDL_GetError());
+        printf("Error with creating window!! More details: %s", SDL_GetError());
         return 1;
 
     }
@@ -69,7 +69,7 @@ int main(int argc, char **argv) {
     if (renderer == NULL) {
 
         //displays error message then quits
-        printf("Error with creating the renderer!! More details: %d", SDL_GetError());
+        printf("Error with creating the renderer!! More details: %s", SDL_GetError());
 
     }
 

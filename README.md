@@ -1,3 +1,6 @@
+## notice
+This project has been archived for public interest, a newer version of this library exists and is located [here.](https://github.com/razziefox/decaf)
+
 ![logo]\
 An experimental tiny game framework developed in C with SDL2.
 
